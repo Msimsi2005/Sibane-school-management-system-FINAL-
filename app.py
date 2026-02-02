@@ -1,11 +1,8 @@
-# app.py
 # This file controls the main application flow:
-# - login
-# - send user to correct menu based on role
 
-from auth import create_default_admin_if_needed, login  # Import functions for authentication
-from menus import admin_menu, staff_menu, teacher_menu  # Import menu functions for different roles
-from utils import pause, print_line  # Import utility functions
+from auth import create_default_admin_if_needed, login  
+from menus import admin_menu, staff_menu, teacher_menu
+from utils import pause, print_line 
 
 def run_app():
     # Main function to run the application
@@ -18,10 +15,10 @@ def run_app():
 
         print_line()  # Print separator line
         print("Sibane Pre School Management System")  # Display app title
-        print_line()  # Print separator line
+        print_line()
         print("Login to continue")  # Prompt for login
-    #    print("(Default admin: admin / admin123)")  # Commented out default credentials
-        print("0) Exit")  # Option to exit
+    #    print("(Default admin: admin / admin123)") 
+        print("0) Exit")
 
         username = input("Username: ").strip()  # Get username input and strip whitespace
         if username == "0":  # Check if user wants to exit
