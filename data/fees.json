@@ -1,0 +1,14 @@
+[
+  {
+    "student_id": "001",
+    "amount": 500.0,
+    "date": "2026-02-01",
+    "description": "fees"
+  },
+  {
+    "student_id": "001",
+    "amount": 100.0,
+    "date": "2026-02-01",
+    "description": "ee"
+  }
+]

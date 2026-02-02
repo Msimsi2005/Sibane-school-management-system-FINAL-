@@ -1,0 +1,20 @@
+[
+  {
+    "student_id": "STU001",
+    "date": "2026-01-31",
+    "status": "Present",
+    "note": ""
+  },
+  {
+    "student_id": "Msizi Moyo",
+    "date": "2026-01-31",
+    "status": "Present",
+    "note": ""
+  },
+  {
+    "student_id": "001",
+    "date": "2026-01-31",
+    "status": "Absent",
+    "note": "UNKOWN"
+  }
+]

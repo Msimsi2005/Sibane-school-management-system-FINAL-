@@ -1,0 +1,60 @@
+[
+  {
+    "student_id": "STU001",
+    "name": "Alice Smith",
+    "age": 5,
+    "class_name": "Kindergarten",
+    "guardian_name": "Jane Smith",
+    "guardian_phone": "0123456789",
+    "medical_notes": "None"
+  },
+  {
+    "student_id": "Msizi Moyo",
+    "name": "Msizi Moyo",
+    "age": 20,
+    "class_name": "Programming",
+    "guardian_name": "moyo",
+    "guardian_phone": "02637868997",
+    "medical_notes": "headache"
+  },
+  {
+    "student_id": "001",
+    "name": "Msizi",
+    "age": 5,
+    "class_name": "5 years",
+    "guardian_name": "Mxolisi",
+    "guardian_phone": "0786714565",
+    "medical_notes": "asthma"
+  },
+  {
+    "student_id": "STU002",
+    "name": "John Doe",
+    "age": 6,
+    "class_name": "5-upper years",
+    "guardian_name": "Jane Doe",
+    "guardian_phone": "0987654321",
+    "medical_notes": "None",
+    "fees_paid": 100.0,
+    "left_balance": 50.0
+  },
+  {
+    "student_id": "002",
+    "name": "Moyo Rutendo",
+    "age": 2,
+    "class_name": "1-2 years",
+    "guardian_name": "Mxolisi",
+    "guardian_phone": "0263557889",
+    "medical_notes": "asmtha",
+    "fees_paid": 200.0,
+    "left_balance": 100.0
+  },
+  {
+    "student_id": "003",
+    "name": "Esther",
+    "age": 5,
+    "class_name": "",
+    "guardian_name": "",
+    "guardian_phone": "",
+    "medical_notes": ""
+  }
+]
