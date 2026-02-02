@@ -1,4 +1,3 @@
-# models_fee.py
 # This file contains the FeePayment class.
 
 class FeePayment:
@@ -6,10 +5,10 @@ class FeePayment:
 
     def __init__(self, student_id: str, amount: float, date: str, description: str):
         # Constructor to initialize fee payment
-        self.student_id = student_id  # Set student ID
-        self.amount = amount  # Set payment amount
-        self.date = date  # Set payment date
-        self.description = description  # Set payment description
+        self.student_id = student_id
+        self.amount = amount 
+        self.date = date  
+        self.description = description  
 
     def to_dict(self) -> dict:
         # Method to convert object to dictionary for JSON saving
