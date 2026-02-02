@@ -72,7 +72,7 @@ def view_student_details_flow(current_user):
     for s in students: 
         if s["student_id"] == sid: 
             print_line()  
-            print("BASIC INFO")  e
+            print("BASIC INFO")
             print(f"Name: {s['name']}")  
             print(f"Age: {s['age']}") 
             print(f"Class: {s['class_name']}") 
