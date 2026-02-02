@@ -1,4 +1,3 @@
-# models_student.py
 # This file contains the Student class.
 
 class Student:
@@ -8,17 +7,17 @@ class Student:
                  guardian_name: str, guardian_phone: str, medical_notes: str):
         # Constructor to initialize student object
         # Some fields are sensitive and should not be seen by teachers.
-        self.student_id = student_id  # Set student ID
-        self.name = name  # Set student name
-        self.age = age  # Set student age
-        self.class_name = class_name  # Set class name
-        self.guardian_name = guardian_name  # Set guardian name (sensitive)
-        self.guardian_phone = guardian_phone  # Set guardian phone (sensitive)
-        self.medical_notes = medical_notes  # Set medical notes (sensitive)
+        self.student_id = student_id  
+        self.name = name 
+        self.age = age  
+        self.class_name = class_name  
+        self.guardian_name = guardian_name  # (sensitive)
+        self.guardian_phone = guardian_phone  # (sensitive)
+        self.medical_notes = medical_notes  # (sensitive)
 
     def to_dict(self) -> dict:
-        # Method to convert Student object into a dictionary for JSON saving
-        return {  # Return dict with all attributes
+        # Method to convert Student object into a dictionary for json saving
+        return {  
             "student_id": self.student_id,
             "name": self.name,
             "age": self.age,
